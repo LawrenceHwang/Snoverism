@@ -15,7 +15,7 @@ function Get-Snoverism() {
     #>
     [CmdletBinding()]
     param(
-        # Path the the JSON data file. Default to the <script-direcotry>/Data/Snoverism-data.json.
+        # Path to the JSON data file. Default to the <script-directory>/Data/Snoverism-data.json.
         [string]$SnoverismDataFile = "$($PSScriptRoot)/Data/Snoverism-data.json"
     )
     try {
